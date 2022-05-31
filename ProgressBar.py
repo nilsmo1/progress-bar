@@ -6,7 +6,7 @@ from math import ceil, floor
 from colorama import Fore, Back, Style
 
 class ProgressBar:
-    def __init__(self, total: int, *, title: Optional[str]=None, long: bool=True) -> None:
+    def __init__(self, total: int, *, long: bool=True) -> None:
         self.total = total
         self.current = 0
         self.long = long
