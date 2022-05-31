@@ -1,7 +1,7 @@
 # Progress bar
 # Python 3.10.2
+
 from typing import Optional
-from time import sleep
 from math import ceil, floor
 from colorama import Fore, Back, Style
 
@@ -20,10 +20,3 @@ class ProgressBar:
         output = lambda long, done, color: (f"\r|{color + Style.BRIGHT + '█' * floor(progress/10 if not long else progress) + Style.RESET_ALL}{color + Style.DIM + '█' * ceil(remaining/10 if not long else remaining) + Fore.RESET + Style.RESET_ALL}|{progress}% ({color}{self.current}{Fore.RESET}/{self.total}), Task: {description}")
         done = self.current == self.total
         print(output(self.long, done, done*Fore.GREEN + (not done)*Fore.YELLOW) + "\n"*done, end="\r")
-if __name__ == '__main__':
-    t = 100
-    p = ProgressBar(t)
-    for i in range(1,t+1):
-        p.add()
-        p.display(f"i={i}")
-        sleep(0.05)
