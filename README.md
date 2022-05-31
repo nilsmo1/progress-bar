@@ -13,7 +13,7 @@ Inspired by a [YouTube video by NeuralNine](https://www.youtube.com/watch?v=x1ea
 | Name | Parameters | Return | Description |
 | :--- | :--- | :--- | :--- |
 | __add__ | - | None | Adds one to the number of completed tasks |
-| __display__ | __description__ (Optional[str]) | None | Displays the bar and completed percentage |
+| __display__ | __description__ (Optional[str]) | None | Displays the bar and completed percentage. Displays "Task: ..." if description is given, otherwise "N/A". |
 
 ## Requirements
 | Name |
