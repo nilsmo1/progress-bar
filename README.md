@@ -10,7 +10,7 @@ Inspired by https://www.youtube.com/watch?v=x1eaT88vJUA
 
 ## Methods
 | Name | Parameters | Return | Description |
-| :--- | :--- |
+| :--- | :--- | :--- | :--- |
 | __add__ | - | None | Adds one to the number of completed tasks |
 | __display__ | __description__ (Optional[str] | None | Displays the bar and completed percentage |
 
