@@ -1,7 +1,7 @@
 # Terminal progress bar
 A simple progress bar for terminal written in python3.10.2
 
-Inspired by https://www.youtube.com/watch?v=x1eaT88vJUA
+Inspired by a [YouTube video by NeuralNine](https://www.youtube.com/watch?v=x1eaT88vJUA)
 ***
 ## Parameters
 | Name | Description |
