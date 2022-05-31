@@ -12,10 +12,11 @@ Inspired by https://www.youtube.com/watch?v=x1eaT88vJUA
 | Name | Parameters | Return | Description |
 | :--- | :--- | :--- | :--- |
 | __add__ | - | None | Adds one to the number of completed tasks |
-| __display__ | __description__ (Optional[str] | None | Displays the bar and completed percentage |
+| __display__ | __description__ (Optional[str]) | None | Displays the bar and completed percentage |
 
 ## Requirements
 | Name |
-| $python3.8+$ |
-| $colorama$ |
+| :-- |
+| [python3.8+](https://www.python.org/) |
+| [colorama](https://pypi.org/project/colorama/) |
 
